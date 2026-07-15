@@ -1,7 +1,7 @@
 # KM71 Jukebox Radio — nieuwe website
 
 Statische, responsive site voor www.km71.nl. Geen server of database nodig —
-alleen HTML, CSS en JS, dus direct te uploaden naar Hostinger.
+alleen HTML, CSS en JS, dus direct te uploaden naar een provider.
 
 Sinds de laatste update is dit een **single-page app**: alle inhoud
 (Home/Verzoekjes/Over ons/Contact) staat in één `index.html`, en JavaScript
@@ -124,7 +124,7 @@ Open **http://localhost:8080**.
 ## Uploaden naar Hostinger
 
 De site staat live op **www.km71.nl**, geüpload naar
-`~/domains/km71.nl/public_html/` op de Hostinger-server via SSH:
+`~/domains/km71.nl/public_html/` op de server via SSH:
 
 ```bash
 ssh -p 65002 GEBRUIKERSNAAM@HOSTNAAM
