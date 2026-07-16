@@ -104,12 +104,14 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
 }
 
-.brand .dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--gold);
-  box-shadow: 0 0 10px 2px var(--gold);
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  display: block;
 }
 
 .nav-links {
