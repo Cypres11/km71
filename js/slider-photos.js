@@ -7,6 +7,6 @@
 // De volgorde in deze lijst = de volgorde in de slider.
 
 var sliderPhotos = [
-  // "reunie-2019.jpg",
-  // "weekend-schotland.jpg",
+  "dummy1.jpg",
+  "dummy2.jpg",
 ];
