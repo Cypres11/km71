@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=8" />
+  <link rel="stylesheet" href="css/style.css?v=9" />
   <script type="module" src="//samcloudmedia.spacial.com/webwidgets/widget/v6/sam-widgets/sam-widgets.esm.js"></script>
 </head>
 <body>
@@ -289,6 +289,19 @@
         </div>
       </section>
 
+      <section id="fotos">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Voor de huisgenoten</span>
+            <h2>Foto's van vroeger</h2>
+            <p>Reünies, weekendjes weg en ander moois.</p>
+          </div>
+          <div class="photo-slider" id="photo-slider">
+            <!-- gevuld door js/slider.js op basis van js/slider-photos.js -->
+          </div>
+        </div>
+      </section>
+
       <section>
         <div class="container">
           <div class="callout">
@@ -341,6 +354,8 @@
 
   <script src="js/main.js?v=2"></script>
   <script src="js/router.js?v=2"></script>
+  <script src="js/slider-photos.js?v=1"></script>
+  <script src="js/slider.js?v=1"></script>
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   <script>
     (function () {
