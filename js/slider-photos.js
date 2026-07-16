@@ -7,6 +7,7 @@
 // De volgorde in deze lijst = de volgorde in de slider.
 
 var sliderPhotos = [
-  "dummy1.jpg",
-  "dummy2.jpg",
+  "pa_ma.jpg",
+  "mala_km71.jpg",
+  "beter_best.jpg"
 ];
